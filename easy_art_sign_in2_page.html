@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyArt.net - Sign Up</title>
+    <link rel="stylesheet" href="easy_art_sign_in2_page_style.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="easy_art_home_page.html"><div class="Easy_art_logo"> <img src="easyart_logo_small.jpg" alt="Easy_art_logo" id="logo"> </div></a>
+        <h2>EasyArt.net</h2>
+    </header>
+
+    <main class="signup-container">
+        <h1>Creat an account</h1>
+
+        <p class="login-text">
+            <u>
+            <a href="easy_art_log_in_page.html">Already have an account?Log-In</a> </u>
+        </p>
+
+        <form id="" signupForm>
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" required>
+
+
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" required>
+
+
+            <nav class="date-row">
+                <label for="birthday">Date of birth:</label>
+                <input type="date" id="birthday" required>
+            </nav>
+
+            <label>Gender</label>
+            <nav class="gender-options">
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+
+
+                <label>
+                    <input type="radio" name="gender" value="other">
+                    Other
+                </label>
+            </nav>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" required>
+
+
+            <nav class="region-row">
+                <label for="region">Region</label>
+                <input type="search" list="regions">
+                <datalist id="regions">
+                    <option value="Denmark">
+                    <option value="Sweden">
+                    <option value="Norway">
+                    <option value="Germany">
+                    <option value="United Kingdom">
+                </datalist>
+
+            </nav>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" required>
+
+
+
+            <label for="about">About</label>
+            <input type="text" id="about" required>
+
+
+            <button type="submit">Confirm</button>
+        </form>
+    </main>
+</body>
+
+</html>
