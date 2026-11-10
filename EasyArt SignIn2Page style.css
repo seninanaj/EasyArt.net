@@ -172,7 +172,7 @@ form > textarea,
 }
 
 /* Region */
-.region-row {
+.Country-row {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -180,12 +180,12 @@ form > textarea,
     gap: 10px;
 }
 
-.region-row label {
+.Country-row label {
     font-size: 18px;
     color: #444;
 }
 
-.region-row select {
+.Country-row select {
     width: 65%;
     height: 34px;
     border: 1px solid black;
@@ -252,10 +252,6 @@ form > input[type="file"] {
     padding: 0;
     background: transparent;
     color: inherit;
-}
-
-.signup-dialog[open] + .signup-complete {
-    display: none;
 }
 
 .signup-complete p {
