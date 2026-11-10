@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyArt.net - Log in</title>
+    <link rel="stylesheet" href="EasyArt LogInPage style.css">
+</head>
+<body>
+    <header>
+        <a class="Easy_art_logo" href="EasyArt HomePage.html">
+            <img id="logo" src="EasyArt Logosmall.jpg" alt="EasyArt logo">
+        </a>
+        <p class="header-title">EasyArt.net</p>
+    </header>
+
+<main class="signup-container">
+    <h1>Log in</h1>
+
+    <dialog class="login-dialog" open aria-label="Login form">
+        <form method="dialog">
+
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" autocomplete="username"
+                       aria-describedby="email-error" required>
+                <p class="form-error" id="email-error">Enter a valid email address.</p>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" autocomplete="current-password"
+                       minlength="8" pattern="(?=.*[0-9]).{8,}"
+                       aria-describedby="password-hint password-error" required>
+                <p class="form-hint" id="password-hint">Use at least 8 characters, including one digit.</p>
+                <p class="form-error" id="password-error">Enter a password with at least 8 characters and one digit.</p>
+            </div>
+
+            <button type="submit">Log in</button>
+        </form>
+    </dialog>
+
+    <section class="login-complete">
+        <a href="EasyArt LogInPage.html">Try again</a>
+    </section>
+
+    <p class="signup-text">
+        <a href="EasyArt SignIn1Page.html">Don't have an account? Sign up for free.</a>
+    </p>
+</main>
+
+</body>
+</html>
