@@ -160,8 +160,10 @@ margin-top: 15px;
 margin: 8px 0;
 }
 
-
-
+:is(a, button, input, select, textarea):focus-visible {
+    outline: 3px solid #184d80;
+    outline-offset: 3px;
+}
 
 :is(input, select, textarea):user-invalid {
     border-color: #a52020;
