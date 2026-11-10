@@ -163,14 +163,12 @@ margin: 8px 0;
 
 
 
-input, select, textarea
-{
-border-color: #a52020;
+:is(input, select, textarea):user-invalid {
+    border-color: #a52020;
 }
 
-input, select, textarea
-{
-border-color: #28723d;
+:is(input, select, textarea):user-valid {
+    border-color: #28723d;
 }
 
 .form-hint, .form-error {
